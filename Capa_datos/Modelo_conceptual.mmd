@@ -1,0 +1,12 @@
+---
+title: MODELO CONCEPTUAL - GLORIA S.A.
+---
+erDiagram
+    PRODUCTOR ||--|{ LOTE_LECHE : vende
+    LOTE_LECHE ||--o{ LATA : genera
+    LOTE_LECHE ||--|{ FASES : pasa
+
+style PRODUCTOR fill:#B2EBF2,stroke:#00ACC1,stroke-width:2px,color:#006064
+style LOTE_LECHE fill:#B3E5FC,stroke:#039BE5,stroke-width:2px,color:#01579B
+style FASES fill:#B2EBF2,stroke:#00ACC1,stroke-width:2px,color:#006064
+style LATA fill:#B2EBF2,stroke:#00ACC1,stroke-width:2px,color:#006064

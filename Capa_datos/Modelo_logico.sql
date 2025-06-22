@@ -25,6 +25,10 @@ CREATE TABLE detalle_lata
   CHECK (fec_vencimiento > now())
 );
 
+COMMENT ON COLUMN detalle_lata.muestra IS 'agujereada';
+
+COMMENT ON COLUMN detalle_lata.url_etiqueta IS 'qr';
+
 CREATE TABLE disponibilidad
 (
   id_fase      int NOT NULL,
