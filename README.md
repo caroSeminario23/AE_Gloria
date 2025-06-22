@@ -22,5 +22,13 @@ Este repositorio muestra la propuesta de mejora del proceso de "Producción de l
 ### Modelo lógico
 ![M. conceptual](Capa_datos/Modelo_logico.png)
 
-## 5. Licencia
+## 5. Guía de instalación
+1. Agregar las extensiones: ```Mermaid Chart``` y ```ERD Editor``` a su IDE de preferencia.
+
+2. Clonar el repositorio en su IDE:
+    ```
+    https://github.com/caroSeminario23/AE_Gloria.git
+    ```
+
+## 6. Licencia
 [![Licencia](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
